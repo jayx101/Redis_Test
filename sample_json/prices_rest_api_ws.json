@@ -1,0 +1,71 @@
+{
+    "USD": {
+        "palladium": {
+            "bidPriceRaw": 1418.228,
+            "bidPrice": 1435.728,
+            "bidPriceFormatted": "US$1,435.73",
+            "askPriceRaw": 1424.922,
+            "askPrice": 1442.422,
+            "askPriceFormatted": "US$1,442.42"
+        },
+        "gold": {
+            "bidPriceRaw": 1959.97,
+            "bidPrice": 1961.47,
+            "bidPriceFormatted": "US$1,961.47",
+            "askPriceRaw": 1960.15,
+            "askPrice": 1961.65,
+            "askPriceFormatted": "US$1,961.65"
+        },
+        "silver": {
+            "bidPriceRaw": 23.5836,
+            "bidPrice": 23.6336,
+            "bidPriceFormatted": "US$23.63",
+            "askPriceRaw": 23.5914,
+            "askPrice": 23.6414,
+            "askPriceFormatted": "US$23.64"
+        },
+        "platinum": {
+            "bidPriceRaw": 1034.394,
+            "bidPrice": 1037.394,
+            "bidPriceFormatted": "US$1,037.39",
+            "askPriceRaw": 1036.716,
+            "askPrice": 1039.716,
+            "askPriceFormatted": "US$1,039.72"
+        }
+    },
+    "HKD": {
+        "palladium": {
+            "bidPriceRaw": 11140.18094,
+            "bidPrice": 11277.64344,
+            "bidPriceFormatted": "HK$11,277.64",
+            "askPriceRaw": 11192.76231,
+            "askPrice": 11330.22481,
+            "askPriceFormatted": "HK$11,330.22"
+        },
+        "gold": {
+            "bidPriceRaw": 15395.56435,
+            "bidPrice": 15407.34685,
+            "bidPriceFormatted": "HK$15,407.35",
+            "askPriceRaw": 15396.97825,
+            "askPrice": 15408.76075,
+            "askPriceFormatted": "HK$15,408.76"
+        },
+        "silver": {
+            "bidPriceRaw": 185.249178,
+            "bidPrice": 185.641928,
+            "bidPriceFormatted": "HK$185.64",
+            "askPriceRaw": 185.310447,
+            "askPrice": 185.703197,
+            "askPriceFormatted": "HK$185.70"
+        },
+        "platinum": {
+            "bidPriceRaw": 8125.16487,
+            "bidPrice": 8148.72987,
+            "bidPriceFormatted": "HK$8,148.73",
+            "askPriceRaw": 8143.40418,
+            "askPrice": 8166.96918,
+            "askPriceFormatted": "HK$8,166.97"
+        }
+    },
+    "timestamp": 1686032440
+}

@@ -1,0 +1,54 @@
+{
+    "USD": {
+        "id": "10167",
+        "currencySymbol": "US$",
+        "lpmBuyPrice": null,
+        "priceMinimal": "32.64",
+        "tierprices": [
+            {
+                "qty": 1,
+                "wireprice": "34.84",
+                "cardprice": "36.67",
+                "cryptoprice": "35.19"
+            },
+            {
+                "qty": 20,
+                "wireprice": "33.14",
+                "cardprice": "34.88",
+                "cryptoprice": "33.47"
+            },
+            {
+                "qty": 100,
+                "wireprice": "32.64",
+                "cardprice": "34.36",
+                "cryptoprice": "32.97"
+            }
+        ]
+    },
+    "HKD": {
+        "id": "10167",
+        "currencySymbol": "HK$",
+        "lpmBuyPrice": null,
+        "priceMinimal": "256.39",
+        "tierprices": [
+            {
+                "qty": 1,
+                "wireprice": "273.67",
+                "cardprice": "288.04",
+                "cryptoprice": "276.42"
+            },
+            {
+                "qty": 20,
+                "wireprice": "260.31",
+                "cardprice": "273.98",
+                "cryptoprice": "262.91"
+            },
+            {
+                "qty": 100,
+                "wireprice": "256.39",
+                "cardprice": "269.90",
+                "cryptoprice": "258.98"
+            }
+        ]
+    }
+}

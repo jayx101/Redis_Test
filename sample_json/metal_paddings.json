@@ -1,0 +1,14 @@
+{
+    "Retail_Padding": {
+        "gold": "10",
+        "silver": "0.25",
+        "platinum": "15",
+        "palladium": "30"
+    },
+    "Wholesale_Padding": {
+        "gold": "1.5",
+        "silver": "0.05",
+        "platinum": "3",
+        "palladium": "17.5"
+    }
+}

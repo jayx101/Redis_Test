@@ -72,3 +72,24 @@ data2 = {
 
 store_data('10167', data1)
 store_data('10168', data2)
+
+
+
+def get_tierprice_usd(id, tier):
+    # Connect to your Redis instance
+    r = redis.Redis(host='localhost', port=6379, db=0)
+
+    # Get the tierprice hash
+    tierprice_usd = r.hgetall(f'{id}:tierprices:{tier}:USD')
+    
+    # Convert bytes to string
+    tierprice_usd = {k.decode('utf-8'): v.decode('utf-8') for k, v in tierprice_usd.items()}
+
+    return tierprice_usd
+
+# Get USD tierprice for a specific ID and tier
+id = "10167"
+tier = 0  # replace with the tier index you want
+tierprice_usd = get_tierprice_usd(id, tier)
+print(tierprice_usd)
+

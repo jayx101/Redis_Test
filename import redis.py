@@ -1,4 +1,6 @@
 import redis
+import time
+start_time = time.time()
 
 
 def store_data(id, data):
@@ -71,7 +73,9 @@ data2 = {
 }
 
 store_data('10167', data1)
+print("Process finished 10167--- %s seconds ---" % (time.time() - start_time))
 store_data('10168', data2)
+print("Process finished 10168--- %s seconds ---" % (time.time() - start_time))
 
 
 

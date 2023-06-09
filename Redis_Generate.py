@@ -73,9 +73,10 @@ def add_padding_per_metal_to_redis():
     # Execute all commands in the pipeline
     pipe.execute()
 
-    r.hset("wireprice","0.02")
 
 def add_metalpricing_to_redis():
+
+    r = redis.Redis(host='localhost', port=6379, db=0)
     # Your JSON data
     data = {
         "XPD/USD": {"ask": 1424.922, "bid": 1418.228, "timestamp": 1686032434},
@@ -136,11 +137,11 @@ def add_padding_per_metal():
         wholesale_padded_bid = bid + wholesale_pad
 
         # Store padded prices in new hash
-        retail_padded_currency = "retail_" + metal + "_padded"
+        retail_padded_currency = "retail:" + metal + ":padding"
         pipe.hset(retail_padded_currency, 
                   mapping={'ask': retail_padded_ask,
                            'bid': retial_padded_bid})
-        wholesale_padded_currency = "wholesale_" + metal + "_padded"
+        wholesale_padded_currency = "wholesale:" + metal + ":padding"
         pipe.hset(wholesale_padded_currency, 
                   mapping={'ask': wholesale_padded_ask,
                            'bid': wholesale_padded_bid})
